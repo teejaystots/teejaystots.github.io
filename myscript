@@ -1,7 +1,0 @@
-#!/bin/bash
-
-for i in *.html
-do
-	sed -i 's/Index.html/index.html/g' "$i"
-done
-

@@ -2,6 +2,6 @@
 
 for i in *.html
 do
-	sed -i 's/index.html/HTML.html/g' "$i"
+	sed -i 's/Index/HTML Examples/g' "$i"
 done
 

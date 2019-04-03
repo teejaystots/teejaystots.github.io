@@ -1,0 +1,7 @@
+#!/bin/bash
+
+for i in *.html
+do
+	sed -i 's/index.html/HTML.html/g' "$i"
+done
+

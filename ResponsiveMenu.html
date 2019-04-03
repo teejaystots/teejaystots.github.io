@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Responsive Menu</title>
+<style>
+* {
+	box-sizing: border-box;
+}
+
+.left {
+	background-color: DodgerBlue;
+	padding: 20px;
+	float: left;
+	width: 20%;
+}
+
+.main {
+	background-color: LightGray;
+	padding: 20px;
+	float: left;
+	width: 60%;	
+}
+
+.right {
+	background-color: MediumSeaGreen;
+	padding: 20px;
+	float: left;
+	width: 20%;
+}
+
+@media screen and (max-width: 400px) {
+	.left, .main, .right {
+		width: 100%;
+	}
+}
+
+</style>
+
+</head>
+<body>
+<a href="Index.html">Index</a> <br>
+
+<nav class="left"><p>Left</p></nav>
+<nav class="main"><p>Main</p></nav>
+<nav class="right"><p>Right</p></nav>
+<header><h1>The Header</h1></header>
+</body>
+</html>

@@ -1,16 +1,100 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html>
 <head>
 <meta charset="UTF-8">
-<title>HTML Examples Page</title>
-
+<title>TJ's Homepage</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+	box-sizing: border-box;
+}
+header {
+	background-color: LightGray;
+	padding: 15px;
+	text-align: center;
+}
+nav {
+	float: left;
+	width: 20%;
+	text-align: center;
+}
+nav ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+nav ul li {
+	text-decoration: none;
+	background-color: LightGray;
+	width: 100%;
+	padding: 8px;
+	margin: 10px 0;
+}
+article {
+	float: left;
+	width: 60%;
+	padding: 0 20px;
+	overlfow: hidden;
+}
+aside {
+	background-color:LightGray;
+	float: left;
+	width: 20%;
+	padding: 8px;
+	margin: 10px 0;
+}
+footer{
+	background-color: LightGray;
+	padding: 5px;
+	text-align: center;
+	clear: both;
+}
+@media only screen and (max-width:620px) {
+	nav, article, aside {
+		width: 100%;
+	}
+}
+</style>
 </head>
-<body>
-<h1>INDEX</h1>
-<a href="HTML.html">HTML Examples</a> <br>
-<a href="Numpy01Arrays&Operations.html">Python: Using Numpy - Arrays and Operations</a> <br>
 
-<a href=""></a> <br>
+<body>
+
+<header><h1>TJ's Work-In-Progress Site</h1></header>
+
+<nav>
+	<ul>
+		<li><a href="#">Home</a></li>
+		<li><a href="HTML.html">HTML Examples</a></li>
+		<li><a href="Numpy01Arrays&Operations.html">Python: Using Numpy - Arrays and Operations</a>
+		<li><a href="#">More</a></li>
+		<li><a href="#">Links</a></li>
+		<li><a href="#">To Come</a></li>
+	</ul>
+</nav>
+
+<article>
+	<h3>HTML</h3>
+	<p>HTML stands for Hypertext Markup Language and is used the creation of webpages.</p>
+</article>
+
+<article>
+	<h3>Python</h3>
+	<p>Python is an interpreted, object-oriented, high-level programming language.</p>
+</article>
+
+<article>
+	<h3>Java</h3>
+	<p>Java is a programming language and computing platform. The JVM in the JRE provides portability for Java code.</p>
+</article>
+
+<aside>
+	<h3>About</h3>
+	<p>This is my work-in-progress website where I will display my personal progress and projects</p>
+</aside>
+
+<footer>
+	Copyright &copy;, TJ Staats
+</footer>
 
 </body>
 </html>

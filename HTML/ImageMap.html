@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Image Map</title>
+</head>
+<body>
+<a href="HTML.html">Back to HTML Examples</a> <br><br>
+
+<img src="images/workplace.jpg" alt="Workplace" usemap="#workmap">
+
+<map name="workmap">
+	<!-- rect: left/top(34,44), right/bottom(270,350) -->
+	<area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.html">
+	<area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.html">
+	<!-- circle: center(337,300), radius(44) -->
+	<area shape="circle" coords="337, 300, 44" alt="Coffee" href="coffee.html">
+</map>
+
+</body>
+</html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Layout</title>
+<style>
+div.container {
+	width: 100%;
+	border: 1px solid gray;
+}
+
+header, footer {
+	padding: 1em;
+	color: white;
+	background-color:black;
+	clear: both;
+	text-align: center;
+}
+
+nav {
+	float: left;
+	max-width: 160px;
+	margin: 0;
+	padding: 1em;
+}
+
+nav ul {
+	text-decoration: none;
+}
+
+nav ul a {
+	text-decoration: none;
+}
+
+section, article {
+	margin-left: 170px;
+	border-left: 1px solid gray;
+	padding: 1em;
+	overlfow: hidden;
+}
+
+aside {
+	float: right;
+	max-width: 250px;
+	margin: 0;
+	padding: 1em;
+}
+
+</style>
+
+</head>
+<body>
+<a href="HTML.html">Back to HTML Examples</a> <br><br>
+
+<div class="container">
+<header><h2>Layout Design 02</h2></header>
+
+<nav>
+	<ul>
+		<li><a href="#">Home</a></li>
+		<li><a href="#">Lecture</a></li>
+		<li><a href="#">Lab</a></li>
+		<li><a href="#">Contact</a></li>
+	</ul>
+</nav>
+
+<aside>
+	<figure>
+		<img src="images/TJStaats.jpg" style="width:100%;height:100%">
+		<figcaption>Student: TJ Staats</figcaption>
+	</figure>
+	<p>extra information, related links.</p>
+</aside>
+
+<section>
+	<h3>Lecture</h3>
+	<p>This page shows Lecture notes</p>
+</section>
+
+<article>
+	<h3>HTML #1</h3>
+	<p>Let's see basic HTML tags</p>
+</article>
+
+<footer>
+Copyright &copy;, TJ Staats
+</footer>
+
+</div>
+
+</body>
+</html>

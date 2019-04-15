@@ -1,7 +1,0 @@
-#!/bin/bash
-
-for i in *.html
-do
-	sed -i 's/word1/word2/g' "$i"
-done
-

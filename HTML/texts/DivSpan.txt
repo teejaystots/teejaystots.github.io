@@ -14,8 +14,5 @@
 
 <h1>favorite food is <span style="color:red">pizza</span></h1>
 
-<div style='background-color:red;color:white;>
-<h1 style ='font-family:courier;'>The Following is the HTML Code for this Page</h1>
-</div><iframe src='texts/DivSpan.txt' frameborder='0' width='100%' onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe>
 </body>
 </html>

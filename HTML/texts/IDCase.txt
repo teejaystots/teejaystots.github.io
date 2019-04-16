@@ -34,8 +34,5 @@ This is chapter2. Go to <a href="#top">top</a>
 <h2>End.</h2>
 It's the end of the world as we know it.
 
-<div style='background-color:red;color:white;>
-<h1 style ='font-family:courier;'>The Following is the HTML Code for this Page</h1>
-</div><iframe src='texts/IDCase.txt' frameborder='0' width='100%' onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe>
 </body>
 </html>

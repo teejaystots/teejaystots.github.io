@@ -43,8 +43,5 @@ Copyright &copy;, TJ Staats
 
 </div>
 
-<div style='background-color:red;color:white;>
-<h1 style ='font-family:courier;'>The Following is the HTML Code for this Page</h1>
-</div><iframe src='texts/Layout.txt' frameborder='0' width='100%' onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe>
 </body>
 </html>

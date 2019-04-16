@@ -94,8 +94,5 @@ footer{
 	Copyright &copy;, TJ Staats
 </footer>
 
-<div style='background-color:red;color:white;>
-<h1 style ='font-family:courier;'>The Following is the HTML Code for this Page</h1>
-</div><iframe src='texts/ResponsiveWebPage.txt' frameborder='0' width='100%' onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe>
 </body>
 </html>

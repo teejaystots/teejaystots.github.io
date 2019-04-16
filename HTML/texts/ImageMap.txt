@@ -17,8 +17,5 @@
 	<area shape="circle" coords="337, 300, 44" alt="Coffee" href="coffee.html">
 </map>
 
-<div style='background-color:red;color:white;>
-<h1 style ='font-family:courier;'>The Following is the HTML Code for this Page</h1>
-</div><iframe src='texts/ImageMap.txt' frameborder='0' width='100%' onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe>
 </body>
 </html>

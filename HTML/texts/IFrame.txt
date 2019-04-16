@@ -28,8 +28,5 @@ iframe.withoutBorder {
 <!-- 
 <iframe class="withoutBorder" src="iframe_default.html" name="iframe_b"></iframe>
 -->
-<div style='background-color:red;color:white;>
-<h1 style ='font-family:courier;'>The Following is the HTML Code for this Page</h1>
-</div><iframe src='texts/IFrame.txt' frameborder='0' width='100%' onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe>
 </body>
 </html>

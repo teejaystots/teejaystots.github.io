@@ -13,8 +13,5 @@
 <p style="color:red;font-size:150%">Red and Larger Font</p>
 <p style="text-align:center">Center-aligned text</p>
 
-<div style='background-color:red;color:white;>
-<h1 style ='font-family:courier;'>The Following is the HTML Code for this Page</h1>
-</div><iframe src='texts/Style.txt' frameborder='0' width='100%' onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe>
 </body>
 </html>

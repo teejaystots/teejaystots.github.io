@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Horizontal Menu</title>
+
+<style>
+ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+	background-color: lightgray;
+}
+li {
+	float: left;
+}
+li a {
+	display: block;
+	padding: 8px;
+	background-color: lightgray;
+	text-decoration: none;
+	color: black;
+}
+li a.current {
+	background-color: green;
+	color: white;
+}
+li a:hover:not(.current) {
+	background-color: black;
+	color: white;
+}
+li.right {
+	float: right;
+}
+</style>
+
+</head>
+<body>
+<a href="CSS.html">Back to CSS Page</a>
+
+<ul>
+	<li><a class="current" href="#">Home</a></li>
+	<li><a href="#">News</a></li>
+	<li><a href="#">Contact</a></li>
+	<li class="right"><a href="#">About</a></li>
+</ul>
+
+
+<div style='background-color:red;color:white;>
+<h1 style ='font-family:courier;'>The Following is the HTML Code for this Page</h1>
+</div><iframe src='texts/HorizontalMenu.txt' frameborder='0' width='100%' onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe>
+</body>
+</html>

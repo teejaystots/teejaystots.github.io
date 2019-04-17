@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Table</title>
+<style>
+table {
+	border-collapse: collapse;
+	width: 100%;
+	font-size: 30px;
+	font-family: Helevetica, Arial, sans-serif;
+}
+tr:nth-child(2n) {background-color: lightgray;}
+tr:hover {background-color: red;}
+th, td {
+	padding: 10px;
+	text-align:left;
+	vertical-align: middle;
+	border-bottom: 1px solid darkgray;
+}
+th {
+	background-color: black;
+	color: white;
+}
+</style>
+</head>
+<body>
+<a href="CSS.html">Back to CSS Page</a>
+
+<table>
+<tr><th>First Name</th><th>Last Name</th><th>Hobby</th></tr>
+<tr><td>TJ</td><td>Staats</td><td>Skateboarding</td></tr>
+<tr><td>Timothy</td><td>Staats</td><td>Drumming</td></tr>
+<tr><td>TeeJay</td><td>Staats</td><td>Web Development</td></tr>
+</table>
+
+</body>
+</html>

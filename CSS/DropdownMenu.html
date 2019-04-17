@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Dropdown Menu</title>
+
+<style>
+ul {
+	list-style-type: none;
+	padding: 0;
+	margin; 0;
+	overflow: hidden;
+	background-color: lightgray;
+	font-size: 30px;
+}
+li {
+	float: left;
+}
+li a {
+	display: block;
+	padding: 8px;
+	background-color: lightgray;
+	text-decoration: none;
+	color: black;
+}
+li a.current {
+	background-color: green;
+	color: white;
+}
+li a:hover:not(.current) {
+	background-color: black;
+	color: white;
+}
+.dropdown-content {
+	display: none;
+	position: absolute;
+	width: 160px;
+}
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+</style>
+
+</head>
+<body>
+<a href="CSS.html">Back to CSS Page</a>
+
+<ul>
+	<li><a class="current" href="#">Home</a></li>
+	<li class="dropdown"><a href="#">News</a>
+		<div class="dropdown-content">
+			<a href="#">Link1</a>
+			<a href="#">Link2</a>
+			<a href="#">Link3</a>
+		</div>
+	</li>
+	<li><a href="#">Contact</a></li>
+	<li><a href="#">About</a></li>
+</ul>
+
+<div style='background-color:red;color:white;>
+<h1 style ='font-family:courier;'>The Following is the HTML Code for this Page</h1>
+</div><iframe src='texts/DropdownMenu.txt' frameborder='0' width='100%' onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe>
+</body>
+</html>

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Store</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+
+* {
+	box-sizing: border-box;
+}
+
+.topMenu {
+	background-color: Gray;
+	padding: 0px;
+	text-align: center;
+	width: 100%;
+	text-size: 5vw;
+}
+
+header {
+	background-color: slateblue;
+	padding: 1px;
+	text-align: center;
+}
+
+.leftMain {
+	background-color: darkmagenta;
+	padding: 5px;
+	float: left;
+	width: 40%;
+	font-color: red;
+}
+
+.middleMain {
+	background-color: indigo;
+	padding: 5px;
+	float: left;
+	width: 20%;	
+}
+
+.rightMain {
+	background-color: darkmagenta;
+	padding: 5px;
+	float: left;
+	width: 40%;
+}
+
+nav {
+	float: left;
+	width: 20%;
+	text-align: center;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+nav ul li {
+	text-decoration: none;
+	background-color: mediumslateblue;
+	width: 100%;
+	padding: 8px;
+	margin: 10px;
+}
+
+article {
+	float: left;
+	width: 60%;
+	padding: 0 20px;
+	overlfow: hidden;
+}
+
+aside {
+	background-color: slateblue;
+	float: left;
+	width: 20%;
+	padding: 8px;
+	margin: 10px 0;
+}
+
+footer{
+	background-color: slateblue;
+	padding: 5px;
+	text-align: center;
+	clear: both;
+}
+
+@media screen and (max-width:650px) {
+	nav, article, aside {
+		width: 100%;
+	}
+}
+
+</style>
+</head>
+<body>
+
+<nav class="topMenu"><p><a href="#">Home</a></p></nav>
+
+
+<header><h1>TeeJay's Fancy Shoppe</h1></header>
+
+<nav class="leftMain"><p><a href="#">Affiliates</a></p></nav>
+<nav class="middleMain"><p><a href="#">Main</a></p></nav>
+<nav class="rightMain"><p><a href="#">Employment</a></p></nav>
+
+<nav>
+	<ul>
+		<li><a href="#">Shoppe</a></li>
+		<li><a href="#">What is Fancy?</a></li>
+		<li><a href="#">Special Services</a></li>
+		<li><a href="#">Contact</a></li>
+	</ul>
+</nav>
+
+<article>
+	<h3>All the Best Stuff is Right Here</h3>
+	<p style= "font-size: 3vw">These here are our own featured items at the fanciest shoppe on the interwebs</p>
+</article>
+
+<aside>
+	<h3>About</h3>
+	<img src="images/TJStaats.jpg" style="max-width: 100%">
+	<p>TJ Staats</p>
+</aside>
+
+<footer>
+	Copyright &copy;, TJ Staats
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+
+<title>Cascading Order</title>
+
+<style>
+	h1 {color:red}
+</style>
+
+<link rel="stylesheet" href="CascadingOrder.css">
+</head>
+
+<body>
+<a href="CSS.html">Back to CSS Page</a>
+	<h1 style="color:blue">hello1</h1>
+	<h1>hello2</h1>
+</body>
+</html>
